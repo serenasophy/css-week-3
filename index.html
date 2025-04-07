@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>my css practice</title>
-    <style></style>
+    <meta charset="UTF-8" />
+    <title>My Hospital</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>this is my first css</h1>
-    <p>this is the firt paragraph in my html and css page</p>
+    <header id="header">
+      <h1 class="main tittle">welcome to Central Hospital</h1>
+      <p>
+        welcome to the main branch of central hospital where your health is our
+        priority there is no small or big case we can't handle
+      </p>
+      <img src="ward.jpg" alt="Central Hospital buiding" width="600" />
+    </header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#branches">hospital branches</a></li>
+        <li><a href="#services">services we offer</a></li>
+        <li><a href="#contact">contacts</a></li>
+      </ul>
+    </nav>
+    <section id="branches">
+      <h2 class="section-title">our branches</h2>
+      <table class="branch-table">
+        <thead>
+          <tr>
+            <td>branch name</td>
+            <td>location</td>
+            <td>contact</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lasoi Hospital</td>
+            <td>Kajiado town</td>
+            <td>+254 712 981 234</td>
+          </tr>
+          <tr>
+            <td>Karen Hospital</td>
+            <td>Karen</td>
+            <td>+254 122 655 134</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="services">
+      <h2 class="section-title">services we offer</h2>
+      <ul>
+        <li>minor surgery</li>
+        <li>emergency care</li>
+        <li>child delivery</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2 class="section-title">contact us</h2>
+      <address>
+        <p>feel free to reach us on the following platforms</p>
+        <ul>
+          <li>Email: <a href="centralhospital2@gmail.com"></a></li>
+          <li>phone:+254 122 726 726</li>
+        </ul>
+      </address>
+    </section>
+    <footer class="footer">
+      <p>&copy; 2025 My Hospital. All rights reserved.</p>
+    </footer>
   </body>
 </html>
